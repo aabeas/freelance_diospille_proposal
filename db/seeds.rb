@@ -1,6 +1,6 @@
 10.times do |proposal|
 Proposal.create!(
-    customer: 'Customer #{proposal}',
+    customer: "Customer #{proposal}",
     portfolio_url: 'https://diospille-portfolio.herokuapp.com',
     tools: 'Ruby on Rails, Angular 5, and Postgres',
     estimated_hours: (80 + proposal),
